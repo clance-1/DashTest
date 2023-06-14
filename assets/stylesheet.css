@@ -1,0 +1,55 @@
+.my-class1 {
+	background-color:orange;
+	font-weight:bold; 
+}
+
+.my-class2 {
+	background-color:powderblue;
+	padding:20px;
+	font-size:30px;
+	width:30%;
+}
+
+.table_class {
+	border: 1px solid; 
+	width:50%;
+}
+.table_class th {
+	background-color: powderblue;
+}
+.table_class td {
+	border:solid; 
+	border-width: 0.2px;
+}
+
+.dropdown{
+    height: 30px;
+    width: 300px;
+}
+
+.header_title {
+  font-size: 48px;
+  color: red;
+}
+
+.banner {
+	height: 75px;
+	margin: 25px 100px 25px 100px;
+	background-color: blue;
+}
+
+.banner H1{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.columns{
+	column-count:2;
+	column-gap: 32px;
+	margin: 25px 100px 25px 100px;	
+}
+
+.columns H2{
+	text-align: center;
+}
