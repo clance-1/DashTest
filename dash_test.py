@@ -2,8 +2,6 @@
 from dash import Dash, html, dcc, dash_table
 from dash.dependencies import Output, Input
 import plotly.express as px
-import webbrowser, sys
-
 
 app = Dash(__name__)
 
@@ -30,7 +28,6 @@ def display(company):
     return fig
 
 if __name__ == '__main__':
-    webbrowser.open_new('http://127.0.0.1:8050/')    
     app.run_server(debug=True, use_reloader = False)
     
 
