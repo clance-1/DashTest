@@ -1,4 +1,3 @@
-
 from dash import Dash, html, dcc, dash_table
 from dash.dependencies import Output, Input
 import plotly.express as px
